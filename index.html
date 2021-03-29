@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Piano Practice</title>
+		<script src="https://cdn.jsdelivr.net/npm/webmidi"></script>
+	</head>
+	<style type="text/css">
+		body{
+			background-color: #9A48D0;
+		}
+
+		.main {
+			height: 100vh;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.chord {
+			font: 500 200px Roboto;
+			color: white;
+			align-self: center;
+		}
+	</style>
+	<body>
+
+		<div class="main">
+				<div class="chord" id="curr">press space</div>
+				<div class="chord" id="degree"></div>
+		</div>
+		<script src="script.js"></script>
+
+	</body>
+</html>
